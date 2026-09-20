@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env*
+!.env.example
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Local multimodal fixtures, downloaded source media and run artifacts must never be committed.
+/*.mp4
+/*.mov
+/*.webm
+/*.m4a
+/*.mp3
+/*.zip
+/.tmp-multimodal/
+# Durable local media and analysis archive. Back it up separately; never commit it.
+/.portfolio-data/
+# Local test and browser output.
+/coverage/
+/test-results/
+/playwright-report/
+/.cache/

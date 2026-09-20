@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/api/scrape/:path*",
+      "destination": "/api/provider?__provider=scrape&__path=:path*"
+    },
+    {
+      "source": "/api/foreplay/:path*",
+      "destination": "/api/provider?__provider=foreplay&__path=:path*"
+    },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

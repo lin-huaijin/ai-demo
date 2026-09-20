@@ -1,0 +1,16 @@
+{
+  "name": "foreplay-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local MCP wrapper around the Foreplay Ad Library REST API (Discovery / Swipe File / Spyder).",
+  "bin": {
+    "foreplay-mcp": "index.mjs"
+  },
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
